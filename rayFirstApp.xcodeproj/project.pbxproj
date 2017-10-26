@@ -14,6 +14,8 @@
 		FC8FED6D1FA0000600A3759A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8FED6B1FA0000600A3759A /* LaunchScreen.storyboard */; };
 		FC8FED781FA0000600A3759A /* rayFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8FED771FA0000600A3759A /* rayFirstAppTests.swift */; };
 		FC8FED831FA0000700A3759A /* rayFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8FED821FA0000700A3759A /* rayFirstAppUITests.swift */; };
+		FC8FED911FA0B99F00A3759A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8FED901FA0B99F00A3759A /* AboutViewController.swift */; };
+		FC8FED931FA0D02700A3759A /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = FC8FED921FA0D02700A3759A /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FC8FED7E1FA0000700A3759A /* rayFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rayFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8FED821FA0000700A3759A /* rayFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rayFirstAppUITests.swift; sourceTree = "<group>"; };
 		FC8FED841FA0000700A3759A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8FED901FA0B99F00A3759A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		FC8FED921FA0D02700A3759A /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				FC8FED621FA0000600A3759A /* AppDelegate.swift */,
+				FC8FED921FA0D02700A3759A /* BullsEye.html */,
 				FC8FED641FA0000600A3759A /* ViewController.swift */,
+				FC8FED901FA0B99F00A3759A /* AboutViewController.swift */,
 				FC8FED661FA0000600A3759A /* Main.storyboard */,
 				FC8FED691FA0000600A3759A /* Assets.xcassets */,
 				FC8FED6B1FA0000600A3759A /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8FED6D1FA0000600A3759A /* LaunchScreen.storyboard in Resources */,
+				FC8FED931FA0D02700A3759A /* BullsEye.html in Resources */,
 				FC8FED6A1FA0000600A3759A /* Assets.xcassets in Resources */,
 				FC8FED681FA0000600A3759A /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8FED911FA0B99F00A3759A /* AboutViewController.swift in Sources */,
 				FC8FED651FA0000600A3759A /* ViewController.swift in Sources */,
 				FC8FED631FA0000600A3759A /* AppDelegate.swift in Sources */,
 			);
@@ -427,7 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 46F3JWDNJW;
+				DEVELOPMENT_TEAM = L8KP66Y8C7;
 				INFOPLIST_FILE = rayFirstApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift3.rayFirstApp;
@@ -442,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 46F3JWDNJW;
+				DEVELOPMENT_TEAM = L8KP66Y8C7;
 				INFOPLIST_FILE = rayFirstApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift3.rayFirstApp;
